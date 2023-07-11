@@ -1,0 +1,6 @@
+Template literals, introduced in ES6, are an enhanced string syntax that allows for more expressive and flexible string interpolation in JavaScript. They provide a convenient way to embed expressions and variables inside strings using backticks (`) instead of single or double quotes.
+
+To use template literals, you enclose the string content within backticks instead of traditional quotes. Within the template literal, you can embed placeholders, denoted by ${}, which can contain JavaScript expressions, variables, or function calls. The placeholders are then replaced with their corresponding values when the template literal is evaluated.
+Template literals also support escaping characters with the backslash (\) to include special characters or include backticks within the string.
+
+Overall, template literals provide a concise and flexible way to create strings with embedded expressions, variables, or function calls. They make string interpolation more convenient and readable, particularly when dealing with complex or multiline strings.

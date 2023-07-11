@@ -1,0 +1,6 @@
+Hoisting is a concept in JavaScript that refers to how variable and function declarations are processed during the compilation phase before the actual execution of code. It allows variables and functions to be used before they are declared in the code.
+
+In JavaScript, when the code is being compiled, two main steps occur: variable and function declarations are hoisted to the top of their respective scopes, and the assignments or definitions remain in place.
+However, it's important to note that hoisting works differently for function expressions and variables declared with let or const. Function expressions are not hoisted in the same way function declarations are. Variables declared with let and const are hoisted but are not initialized. They enter a "temporal dead zone" and cannot be accessed before their actual declaration in the code.
+
+In conclusion, hoisting is a JavaScript behavior that allows variable and function declarations to be moved to the top of their respective scopes during the compilation phase, enabling their use before they are formally declared in the code. However, it's considered best practice to declare variables and functions before using them to avoid potential confusion and bugs.

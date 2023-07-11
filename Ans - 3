@@ -1,0 +1,15 @@
+In JavaScript, both var and let are used to declare variables, but they have some differences in terms of scope, hoisting, and redeclaration.
+
+Scope:
+Variables declared with var have function scope or global scope. They are accessible throughout the entire function in which they are declared or the global scope if declared outside any function.
+Variables declared with let have block scope. They are only accessible within the block (enclosed by curly braces) in which they are declared.
+
+Hoisting:
+
+Variables declared with var are hoisted to the top of their scope during the compilation phase. This means that you can use var variables before their actual declaration in the code, although they will have the value undefined until the assignment is reached.
+Variables declared with let are also hoisted, but they enter the Temporal Dead Zone (TDZ) until their actual declaration is encountered. Trying to access a let variable before its declaration will result in a ReferenceError.
+
+Redeclaration:
+
+Variables declared with var can be redeclared within the same scope without any error. The subsequent declarations simply overwrite the previous value.
+Variables declared with let cannot be redeclared within the same block scope. If you try to redeclare a let variable in the same scope, a SyntaxError will occur.

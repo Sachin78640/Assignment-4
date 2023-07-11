@@ -1,0 +1,11 @@
+The main difference between let and const in JavaScript is that let allows variable reassignment, while const creates variables with a constant, unchangeable value.
+
+Variable Assignment:
+
+With let, you can assign a new value to the variable.
+With const, the initial assignment is mandatory, and the variable cannot be reassigned a new value.
+Variable Mutability:
+
+Variables declared with let are mutable, meaning their value can be modified.
+Variables declared with const are immutable, meaning their value cannot be changed after assignment.
+In summary, the main difference between let and const lies in their mutability and reassignment capabilities. let allows reassignment and mutable values, while const creates variables with a constant, unchangeable value. It's a good practice to use let when you know the variable value needs to change, and const when the value is intended to remain constant.

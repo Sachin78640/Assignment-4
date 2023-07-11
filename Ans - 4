@@ -1,0 +1,41 @@
+ECMAScript 6 (ES6), also known as ECMAScript 2015, introduced several significant features and enhancements to the JavaScript language. Some of the major features introduced in ES6 are:
+
+1. let and const Declarations:
+   - The `let` keyword allows block-scoped variable declarations, replacing the function-scoped behavior of `var`.
+   - The `const` keyword is used to declare variables with a constant value that cannot be re-assigned.
+
+2. Arrow Functions:
+   - Arrow functions provide a concise syntax for writing function expressions.
+   - They have a lexically bound `this` value, which means it retains the `this` value of the enclosing scope.
+
+3. Classes:
+   - ES6 introduced a class syntax that provides a more familiar and structured way to create objects and implement inheritance.
+   - It simplifies object-oriented programming in JavaScript by providing syntactic sugar over JavaScript's prototypal inheritance model.
+
+4. Template Literals:
+   - Template literals allow embedding expressions and variables inside strings using backticks (`) instead of single or double quotes.
+   - They support multi-line strings without the need for explicit line breaks.
+
+5. Destructuring Assignment:
+   - Destructuring allows extracting values from arrays or objects into individual variables in a concise and readable way.
+
+6. Default Parameters:
+   - Default parameter values can be specified for function parameters, making it easier to handle missing or undefined arguments.
+
+7. Rest and Spread Operators:
+   - The rest operator (`...`) allows capturing multiple function arguments into an array.
+   - The spread operator (`...`) allows expanding elements of an array or object into separate arguments or elements.
+
+8. Modules:
+   - ES6 introduced a standardized module system using the `import` and `export` keywords.
+   - Modules allow organizing code into separate files and provide a more robust and maintainable structure for large-scale applications.
+
+9. Promises:
+   - Promises provide a built-in mechanism for handling asynchronous operations in a more structured and readable way.
+   - They simplify asynchronous programming by allowing chaining of operations and handling success and error cases.
+
+10. Iterators and Generators:
+    - Iterators provide a uniform interface for iterating over data structures, such as arrays or objects.
+    - Generators are functions that can be paused and resumed, enabling more expressive and efficient iteration.
+
+These are just some of the key features introduced in ECMAScript 6. ES6 brought many other improvements, including enhanced object literals, new array methods, modules, symbols, and more. These features have greatly improved the capabilities and expressiveness of JavaScript, enabling developers to write more efficient and maintainable code.
